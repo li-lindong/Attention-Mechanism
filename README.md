@@ -3,6 +3,8 @@ This repository contains the detailed introduction and implementation of attenti
 
 ## 1 注意力机制的直观理解
 
+<center><img src="https://github.com/li-lindong/k-means/blob/main/block%20diagram.png" width=65%></center>
+
 ## Self-Attention Mechanism
 
 ## Reference
