@@ -1,6 +1,8 @@
 # Attention Mechanism
 This repository contains the detailed introduction and implementation of attention mechanisms.
 
+## 1 注意力机制的直观理解
+
 ## Self-Attention Mechanism
 
 ## Reference
