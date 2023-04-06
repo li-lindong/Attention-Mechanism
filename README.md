@@ -22,6 +22,12 @@ This repository contains the detailed introduction and implementation of attenti
 
 ## 3 注意力机制的分类
 
+&emsp;&emsp;根据注意力机制最后选择信息方式的不同，可分为软注意力机制（soft attention mechanism）和硬注意力机制（hard attention mechanism）：
+ - 软注意力机制：该类型根据计算的权重对信息进行加权求和作为最后的输出；虽然权重不一样，但每条信息都用于最后输出的计算。
+ - 硬注意力机制：该类型从多个信息中仅跳出一条作为最后的输出，可能是权值最大对应的信息。
+
+&emsp;&emsp;根据注意力机制在计算方式、使用场景等方面的差异，可分为自注意力机制、空间注意力机制、通道注意力机制等，以下对这些注意力机制分节进行详细介绍。
+
 ### 3.1 Self-Attention Mechanism
 
 ## Reference
