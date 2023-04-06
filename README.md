@@ -14,7 +14,7 @@ This repository contains the detailed introduction and implementation of attenti
 <center><img src="https://github.com/li-lindong/Attention-Mechanism/blob/main/%E5%9B%BE%E7%89%87/%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%9C%BA%E5%88%B6%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%A8%A1%E5%9E%8B.png" width=60%></center>
 
 &emsp;&emsp;如下图所示（以4组信息为例），具体计算过程可抽象为三个步骤：
- - 步骤一：
+ - 步骤一：根据Query和Key<sub>i</sub>，计算两者的相似性或者相关性
  - 步骤二：
 
 ## Self-Attention Mechanism
