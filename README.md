@@ -11,7 +11,7 @@ This repository contains the detailed introduction and implementation of attenti
 
 &emsp;&emsp;注意力机制的抽象模型如下图所示，该机制本质上是从大量信息（Value-1, Value-2,..., Value-N）中筛选出少量重要信息，并用于后续操作或任务。大体过程是，通过Query和Key-1、Key-2等计算注意力权重，然后利用权重对信息（Value-1, Value-2,..., Value-N）加权求和即得到注意力机制的输出。其中，权重代表了对应信息的重要性。
 
-<center><img src="https://github.com/li-lindong/Attention-Mechanism/blob/main/%E5%9B%BE%E7%89%87/%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%9C%BA%E5%88%B6%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%A8%A1%E5%9E%8B.png" width=30%></center>
+<center><img src="https://github.com/li-lindong/Attention-Mechanism/blob/main/%E5%9B%BE%E7%89%87/%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%9C%BA%E5%88%B6%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%A8%A1%E5%9E%8B.png" width=60%></center>
 
 ## Self-Attention Mechanism
 
