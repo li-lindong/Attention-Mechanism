@@ -14,8 +14,9 @@ This repository contains the detailed introduction and implementation of attenti
 <center><img src="https://github.com/li-lindong/Attention-Mechanism/blob/main/%E5%9B%BE%E7%89%87/%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%9C%BA%E5%88%B6%E7%9A%84%E6%8A%BD%E8%B1%A1%E6%A8%A1%E5%9E%8B.png" width=60%></center>
 
 &emsp;&emsp;如下图所示（以4组信息为例），具体计算过程可抽象为三个步骤：
- - 步骤一：根据Query和Key<sub>i</sub>，计算两者的相似性或者相关性
- - 步骤二：
+ - 步骤一：根据Query和Key-i，计算两者的相似性或者相关性a-i；具体计算方法可以利用向量点积、余弦相似度或额外的神经网络进行求值。
+ - 步骤二：引入softmax函数对步骤一中得到的数值进行归一化，转化为权值之和为1的概率分布；该方法也更加突出了重要元素的权重。
+ - 步骤三：通过归一化后的相关性权值，对信息Value-i进行加权求和，即可得到该机制的输出。
 
 ## Self-Attention Mechanism
 
