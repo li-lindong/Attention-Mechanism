@@ -20,7 +20,9 @@ This repository contains the detailed introduction and implementation of attenti
 
 <center><img src="https://github.com/li-lindong/Attention-Mechanism/blob/main/%E5%9B%BE%E7%89%87/%E6%B3%A8%E6%84%8F%E5%8A%9B%E6%9C%BA%E5%88%B6%E6%8A%BD%E8%B1%A1%E5%8C%96%E7%9A%84%E4%B8%80%E8%88%AC%E8%AE%A1%E7%AE%97%E8%BF%87%E7%A8%8B.png" width=60%></center>
 
-## Self-Attention Mechanism
+## 3 注意力机制的分类
+
+### 3.1 Self-Attention Mechanism
 
 ## Reference
 https://blog.csdn.net/dagouxiaohui/article/details/125966378
